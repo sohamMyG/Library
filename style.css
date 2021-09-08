@@ -1,0 +1,56 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: Verdana;
+}
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.button {
+  display: block;
+  margin: 1em auto;
+}
+#container div {
+  padding: 2rem;
+  margin: 1rem;
+  width: 150px;
+  border: 1px solid #333322;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.collapsible {
+  vertical-align: middle;
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  text-align: center;
+}
+.active,
+.collapsible:hover {
+  background-color: #ccc;
+}
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.content li {
+  padding: 0.3em 0;
+}
+.content label {
+  display: inline-block;
+}
